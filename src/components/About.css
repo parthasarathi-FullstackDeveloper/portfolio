@@ -1,0 +1,21 @@
+#about {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+  }
+  
+  .about-content {
+    font-size: 1.1rem; /* Slightly larger text */
+    line-height: 1.6; /* Increased line height for readability */
+  }
+  
+  .about-content p {
+    display: flex; /* Use flexbox for icon alignment */
+    align-items: center; /* Center items vertically */
+    margin: 10px 0; /* Spacing between paragraphs */
+  }
+  
+  .about-content svg {
+    margin-right: 8px; /* Space between icon and text */
+    color: #007bff; /* Icon color */
+  }
+  

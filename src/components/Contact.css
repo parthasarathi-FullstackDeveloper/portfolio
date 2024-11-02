@@ -1,0 +1,23 @@
+#contact {
+    padding: 40px 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+#contact h2 {
+    color: #007BFF; /* Title color */
+}
+
+p {
+    display: flex;
+    align-items: center; /* Aligns icon and text */
+    margin: 10px 0; /* Space between paragraphs */
+}
+
+.contact-icon {
+    margin-right: 8px; /* Space between icon and text */
+    color: #007BFF; /* Icon color */
+    font-size: 1.2rem; /* Icon size */
+}

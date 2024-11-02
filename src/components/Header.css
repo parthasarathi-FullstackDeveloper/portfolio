@@ -1,0 +1,78 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #007bff; /* Primary color for the header */
+  color: white; /* Text color */
+  padding: 20px;
+  text-align: center; /* Center text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: auto; /* Ensure full width */
+}
+
+.header-title {
+  font-size: 2.5rem; /* Larger font size for title */
+  margin: 0; /* Remove default margin */
+}
+
+.header-subtitle {
+  font-size: 1.2rem; /* Subtitle size */
+  margin: 10px 0 20px; /* Margin below subtitle */
+  font-style: italic; /* Italic style for subtitle */
+}
+
+.header-nav {
+  
+  display: flex; /* Flexbox for navigation */
+  justify-content: center; /* Center the links */
+  flex-wrap: wrap; /* Wrap links to the next line on smaller screens */
+  gap: 15px; /* Space between links */
+  margin-top: 10px; /* Space above nav */
+  text-align: center; /* Center text for nav links */
+}
+
+.nav-link {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 15px; /* Padding for links */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+  display: flex; /* Flexbox for aligning icon and text */
+  align-items: center; /* Center the icon vertically */
+}
+
+.nav-link svg {
+  margin-right: 8px; /* Space between icon and text */
+  width: 1.5em; /* Adjust icon size for better visibility */
+  height: 1.5em; /* Adjust icon size for better visibility */
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Lighten on hover */
+  transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.3); /* Active link background */
+  font-weight: bold; /* Bold text for active link */
+}
+
+a {
+  text-decoration: none; /* Ensure no underline for links */
+}
+
+/* Additional styles for better responsiveness */
+@media (max-width: 600px) {
+  .nav-link {
+    flex-direction: column; /* Stack icons and text vertically on small screens */
+    align-items: center; /* Center items */
+  }
+
+  .header-title {
+    font-size: 2rem; /* Adjust title size on small screens */
+  }
+
+  .header-subtitle {
+    font-size: 1rem; /* Adjust subtitle size on small screens */
+  }
+}

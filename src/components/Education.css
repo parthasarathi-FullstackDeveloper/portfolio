@@ -1,0 +1,17 @@
+#education {
+    padding: 40px 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+#education h2 {
+    display: flex;
+    align-items: center;
+    color: #007BFF; /* Title color */
+}
+
+#education h2 svg {
+    margin-right: 10px; /* Space between icon and text */
+}

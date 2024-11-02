@@ -1,0 +1,32 @@
+#experience {
+    padding: 40px 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+#experience h2 {
+    display: flex;
+    align-items: center;
+    color: #007BFF; /* Title color */
+}
+
+#experience h2 svg {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0; /* Space between list items */
+}
+
+ul li svg {
+    margin-right: 8px; /* Space between icon and text in list items */
+}

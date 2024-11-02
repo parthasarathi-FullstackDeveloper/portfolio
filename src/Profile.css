@@ -1,0 +1,101 @@
+.profile-container {
+  max-width: 600px;
+  margin: 20px auto; /* Centered margin */
+  padding: 30px;
+  text-align: center;
+  background-color: #ffffff; /* Clean background */
+  border: 3px solid #007bff; /* Border color */
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  transition: transform 0.3s, box-shadow 0.3s; /* Scaling effect */
+}
+
+.profile-container:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.profile-title {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #007bff; /* Primary color for title */
+  animation: fadeIn 0.5s; /* Fade in animation */
+}
+
+.profile-image {
+  max-width: 180px;
+  border-radius:6%; /* Circular shape */
+  border: 3px solid #85add8; /* Primary color border */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+.profile-image:hover {
+  transform: scale(1.1); /* Enlarge on hover */
+}
+
+.profile-description {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.5;
+  animation: fadeIn 0.7s; /* Fade in animation */
+}
+
+.resume-section {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center; /* Center buttons */
+  gap: 20px; /* Space between buttons */
+}
+
+.resume-link {
+  padding: 12px 25px;
+  background-color: #007bff; /* Primary color */
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.resume-link:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.profile-footer {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.profile-footer p {
+  margin: 0;
+  font-style: italic;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .profile-container {
+    padding: 20px; /* Less padding on small screens */
+  }
+
+  .profile-title {
+    font-size: 2rem; /* Adjust title size on small screens */
+  }
+
+  .profile-description {
+    font-size: 1rem; /* Adjust description size on small screens */
+  }
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
