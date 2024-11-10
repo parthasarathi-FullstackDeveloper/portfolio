@@ -73,6 +73,7 @@ h2 {
 }
 
 .project, .skill {
+    gap: 10px;
     background: #f1f1f1;
     border-radius: 5px;
     padding: 15px;

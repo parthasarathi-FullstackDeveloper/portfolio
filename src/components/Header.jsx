@@ -8,12 +8,13 @@ const Header = () => {
 
   const navItems = [
     { to: '/', icon: <FaUser />, label: 'Profile' },
-    { to: '/about', icon: <FaInfoCircle />, label: 'About' },
     { to: '/skills', icon: <FaTools />, label: 'Skills' },
     { to: '/projects', icon: <FaProjectDiagram />, label: 'Projects' },
     { to: '/experience', icon: <FaBriefcase />, label: 'Experience' },
     { to: '/education', icon: <FaGraduationCap />, label: 'Education' },
     { to: '/contact', icon: <FaEnvelope />, label: 'Contact' },
+    { to: '/about', icon: <FaInfoCircle />, label: 'About' },
+
   ];
 
   return (

@@ -7,11 +7,12 @@ const Contact = () => {
     <section id="contact">
       <h2>Contact Me</h2>
       <p>
-        <FaEnvelope className="contact-icon" /> Email: <a href="mailto:parthasarathi342004@gmail.com">parthasarathi342004@gmail.com</a>
+        <FaEnvelope className="contact-icon" /> Email :  <a href="mailto:parthasarathi342004@gmail.com">parthasarathi342004@gmail.com</a>
       </p>
       <p>
-        <FaPhone className="contact-icon" /> Phone: 7397720349
+        <FaPhone className="contact-icon" /> Phone : +91  7397720349
       </p>
+      
     </section>
   );
 };
