@@ -35,7 +35,7 @@ const Projects = () => {
           <h3>{project.title}</h3>
           <p>{project.description}</p>
           <Link   to={`/projects/${project.id}`} className="view-project-btn">View Project</Link>
-        </div>
+        </div> 
       ))}
     </section>
   </>
