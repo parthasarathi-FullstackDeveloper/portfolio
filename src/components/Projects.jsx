@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaHotel, FaClock, FaSignInAlt } from 'react-icons/fa'; // Importing icons
+import { FaHotel, FaClock, FaSignInAlt,FaCogs } from 'react-icons/fa'; // Importing icons
 
 const Projects = () => {
   const projectList = [
@@ -10,6 +10,13 @@ const Projects = () => {
       description: 'A comprehensive system for managing hotel operations.',
       icon: <FaHotel />, // Icon for hotel management
     },
+    {
+      id: 'uuid-generator',
+      title: 'UUID Generator',
+      description: 'A tool for generating unique identifiers (UUIDs) with a focus on performance and randomness. The project ensures optimal generation of identifiers and features a user-friendly interface for easy use.',
+      icon: <FaCogs />, // Icon for UUID generator
+  },
+  
     {
       id: 'lap-count',
       title: 'Lap Count Application',
@@ -35,7 +42,7 @@ const Projects = () => {
           <h3>{project.title}</h3>
           <p>{project.description}</p>
           <Link   to={`/projects/${project.id}`} className="view-project-btn">View Project</Link>
-        </div>
+        </div> 
       ))}
     </section>
   </>

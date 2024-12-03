@@ -1,7 +1,7 @@
 import React from "react";
 import { FaDownload, FaEye, FaLinkedin } from "react-icons/fa";
-import "./Profile.css"; // Ensure you have the CSS file for styling
-import PS from "./assets/PS.jpeg"; // Adjust this path based on your structure
+import "./Profile.css"; 
+import PS from "./assets/PS.jpeg";
 
 const Profile = () => {
   const resumeUrl = "./Parthasarathi_M_Resume.pdf";
