@@ -1,8 +1,9 @@
 import ResumeImg from '../assets/resume.jpg';
+import MyResume from '../assets/Parthasarathi_M_Resume.pdf'
 
 export default function Resume () {
     const config = {
-        link: 'https://www.africau.edu/images/default/sample.pdf'
+        link: MyResume
     }
 
     return <section id='resume' className='flex flex-col md:flex-row bg-secondary px-5'>

@@ -1,6 +1,6 @@
-import websiteImg1 from '../assets/ecommerce-websites.jpg';
-import websiteImg2 from '../assets/food-ecommerce.jpg';
-import websiteImg3 from '../assets/website-blog.jpg';
+import websiteImg1 from '../assets/hotel.jpeg';
+import websiteImg2 from '../assets/Login.png';
+import websiteImg3 from '../assets/race.jpeg';
 
 export default function Projects() {
 
@@ -8,18 +8,18 @@ export default function Projects() {
         projects : [
             {
                 image: websiteImg1,
-                description: 'A Ecommerce Website. Built with MERN Stack.',
-                link: 'https://github.com/jvlcode/jvlcart'
+                description: 'A Hotel Management Website. Built with React js, Spring boot, Java, MySql',
+                link: 'https://github.com/parthasarathi-FullstackDeveloper/hotel_Management.git'
             },
             {
                 image: websiteImg2,
-                description: 'Food Ecommerce website like Swiggy, Built with Angular & .Net',
-                link: 'https://github.com/jvlcode/food'
+                description: 'Secure Login Page .Build With Java, SpringBoot, React js, My Sql',
+                link: 'https://github.com/parthasarathi-FullstackDeveloper/UUID-Generator.git'
             },
             {
                 image: websiteImg3,
-                description: 'Basic Blog Website . Built with Next JS and MongoDB',
-                link: 'https://github.com/jvlcode/blog'
+                description: 'LapCount Application . Build With Java, Spring Boot, React js, My Sql',
+                link: 'https://github.com/parthasarathi-FullstackDeveloper/LapCount.git'
             }
         ]
     }
@@ -28,7 +28,7 @@ export default function Projects() {
         <div className="w-full">
             <div className="flex flex-col px-10 py-5">
                 <h1 className="text-4xl border-b-4 border-secondary mb-5 w-[150px] font-bold">Projects</h1>
-                <p>These are some of my best projects. I have built these with React, MERN and vanilla CSS. Check them out.</p>
+                <p>These are some of my best projects. I have built these with React,CSS, Java and Spring Boot. Check them out.</p>
             </div>
         </div>
         <div className="w-full">
