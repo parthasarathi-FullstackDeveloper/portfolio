@@ -21,7 +21,7 @@ export default function Projects() {
                 description: 'LapCount Application . Build With Java, Spring Boot, React js, My Sql',
                 link: 'https://github.com/parthasarathi-FullstackDeveloper/LapCount.git'
             }
-        ]
+        ] 
     }
 
     return <section id='projects' className="flex  flex-col py-20 px-5 justify-center bg-primary text-white">
